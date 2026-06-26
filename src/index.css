@@ -1,0 +1,38 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&family=Playfair+Display:ital,wght@0,400;0,500;0,600;0,700;1,400;1,600&family=JetBrains+Mono:wght@400;500&display=swap');
+@import "tailwindcss";
+
+@theme {
+  --font-sans: "Inter", ui-sans-serif, system-ui, sans-serif;
+  --font-serif: "Playfair Display", Georgia, serif;
+  --font-mono: "JetBrains Mono", monospace;
+  
+  --color-primary: #9c3f00;
+  --color-deep-saffron: #E36414;
+  --color-royal-indigo: #2D3250;
+  --color-warm-sand: #F9F7F2;
+  --color-emerald-green: #064E3B;
+  --color-on-surface: #251913;
+  --color-on-surface-variant: #584238;
+  --color-surface-container: #ffeae1;
+  --color-surface-container-high: #fbe3da;
+  --color-surface-container-highest: #f5ded4;
+}
+
+/* Custom scrollbar hiding and subtle overlays */
+.hide-scrollbar::-webkit-scrollbar {
+  display: none;
+}
+.hide-scrollbar {
+  -ms-overflow-style: none;
+  scrollbar-width: none;
+}
+
+.jali-overlay {
+  background-image: url('https://www.transparenttextures.com/patterns/natural-paper.png');
+  opacity: 0.05;
+}
+
+.text-shadow-hero {
+  text-shadow: 0 4px 12px rgba(0,0,0,0.4);
+}
+
